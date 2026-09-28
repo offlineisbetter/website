@@ -3,6 +3,9 @@ name = "offlineisbetter"
 style = "dark"
 icon = "favicon.ico"
 
+[analytics]
+tag = "analytics-tag.html"
+
 [menu]
 names = [
     "about",
