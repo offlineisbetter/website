@@ -1,6 +1,7 @@
 [site]
 name = "offlineisbetter"
 style = "dark"
+icon = "favicon.ico"
 
 [media]
 include = []
