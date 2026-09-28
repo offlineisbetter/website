@@ -3,5 +3,13 @@ name = "offlineisbetter"
 style = "dark"
 icon = "favicon.ico"
 
+[menu]
+names = [
+    "about",
+]
+links = [
+    "/",
+]
+
 [media]
 include = []
