@@ -1,6 +1,17 @@
 # offlineisbetter
 
-building local text intelligence.
-stop depending on the cloud.
+we believe that you should stop giving your precious data to faceless companies.
 
-offlineisbetter launches soon.
+we believe that you shouldn't have to pay unpredictable api bills.
+
+we believe that you deserve to run models locally without expensive hardware.
+
+so we're making local text intelligence.  fast, parameter-efficient models for text, with no gpu required.
+
+when we're done, you'll be able to analyze text sentiment, determine priority, or route requests automatically, in milliseconds on _your_ cpu without an internet connection.
+
+even better, our models will be _finetuned on your specific application_ so you don't have to worry about some general-purpose model messing up when it encounters new ideas.
+
+_offlineisbetter launches soon_.
+
+follow us for updates on [X](https://x.com/offlinedevs).
