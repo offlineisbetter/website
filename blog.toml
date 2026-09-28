@@ -6,12 +6,10 @@ icon = "favicon.ico"
 [menu]
 names = [
     "about",
-    "metrics",
     "contact",
 ]
 links = [
     "/",
-    "/metrics",
     "/contact",
 ]
 
