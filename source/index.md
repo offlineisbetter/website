@@ -12,13 +12,13 @@ what it says on the tin. it's a lightweight model with only 230m parameters, fin
 
 all f1 scores are on the sst-2 validation set.
 
-__offline-sentiment-small__ (230m) 80.32 ms p95 / 0.9489 f1
+__offline-sentiment-small__ 230m / 80.32 ms p95 / 0.9489 f1
 
-__distilbert-base__ (67m) 66.15 ms p95 / 0.9321 f1
+__distilbert-base__ 67m / 66.15 ms p95 / 0.9321 f1
 
-__roberta-base__ (125m) 469.65 ms p95 / 0.9396 f1
+__roberta-base__ 125m / 469.65 ms p95 / 0.9396 f1
 
-__modernbert-base__ (149m) 530.73 ms p95 / 0.9396 f1
+__modernbert-base__ 149m / 530.73 ms p95 / 0.9396 f1
 
 notice that, to get the same latency with bert models, you have to go all the way down to 67m parameters. for short sentiment tasks, you get comparable f1 score. just wait until you've got a long customer email with lots of detail.
 
