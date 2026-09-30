@@ -2,19 +2,35 @@
 
 ~
 
-we believe that you should stop giving your precious data to faceless companies. _offline is secure_
+we're excited to announce the first model by _offlineisbetter_.
 
-we believe that you shouldn't have to pay unpredictable api bills. _offline is predictable_
+__offline-sentiment-small__
 
-we believe that you deserve to run models locally without expensive hardware. _offline is easier_
+what it says on the tin. it's a lightweight model with only 230m parameters, finetuned for sentiment analysis, and with 80 ms tail latency on a ryzen 9 cpu.
 
-so we're making local text intelligence. fast, parameter-efficient models for text, with no gpu required.
+## benchmarks
 
-when we're done, you'll be able to analyze text sentiment, sort your email, retrieve relevant documents, etc. in milliseconds on _your_ cpu and without an internet connection.
+all f1 scores are on the sst-2 validation set.
 
-even better, our models will be _finetuned on your specific application_ so you don't have to worry about some general-purpose model messing up when it encounters new ideas.
+__offline-sentiment-small__ (230m): 80.32 ms p95 / 0.9489 f1
 
-come be chronically offline with us. _offlineisbetter launches soon_
+__distilbert-base__ (67m): 66.15 ms p95 / 0.9321 f1
+
+__roberta-base__ (125m): 469.65 ms p95 / 0.9396 f1
+
+__modernbert-base__ (149m): 530.73 ms p95 / 0.9396 f1
+
+notice that, to get the same latency with bert models, you have to go all the way down to 67m parameters. for short sentiment tasks, you get comparable f1 score. just wait until you've got a long customer email with lots of detail.
+
+our models will be unbelievably easy to install. one _pip install_ command followed by one checkpoint download. you're done. and it's just the beginning of what we're building
+
+## about offlineisbetter
+
+we believe that it's time to ditch the cloud. because offline is secure, offline is fast, offline is predictable, offlineisbetter.
+
+[read our manifesto](/about)
+
+stay tuned for more information. _offline-sentiment-small_ and many more models will be available soon.
 
 [follow on X](https://x.com/offlinedevs)
 [join the waitlist](https://forms.gle/XMo6AQeg7FZ2NAdH6)

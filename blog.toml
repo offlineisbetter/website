@@ -8,11 +8,13 @@ tag = "analytics-tag.html"
 
 [menu]
 names = [
+    "home",
     "about",
     "contact",
 ]
 links = [
     "/",
+    "/about",
     "/contact",
 ]
 
