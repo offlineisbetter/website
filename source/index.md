@@ -30,7 +30,7 @@ we believe that it's time to ditch the cloud. because offline is secure, offline
 
 [read our manifesto](/about)
 
-stay tuned for more information. _offline-sentiment-small_ and many more models will be available soon.
+come be chronically offline with us. _offline-sentiment-small_ and many more models will be available soon. 
 
 [follow on X](https://x.com/offlinedevs)
 [join the waitlist](https://forms.gle/XMo6AQeg7FZ2NAdH6)
