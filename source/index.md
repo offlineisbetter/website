@@ -16,4 +16,4 @@ even better, our models will be _finetuned on your specific application_ so you 
 
 come be chronically offline with us. _offlineisbetter launches soon_
 
-follow on [X](https://x.com/offlinedevs)
+[follow on X](https://x.com/offlinedevs) / [join the waitlist](https://forms.gle/XMo6AQeg7FZ2NAdH6)
