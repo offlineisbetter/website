@@ -54,22 +54,6 @@
 
 <p><a href="https://github.com/offlineisbetter/offlineisbetter">try it now</a></p>
 
-<p><strong>benchmarks</strong></p>
-
-<p>all f1 scores are on the sst-2 validation set.</p>
-
-<p>we want to emphasize that these benchmarks are allowing the <em>same effort to set up the model</em>, not the <em>runtime</em> or the <em>quantization format</em>. bert models were pulled from the hugging face hub, and offline-sentiment-small from the github repository above.</p>
-
-<p><strong>offline-sentiment-small</strong></p><p> 230m / 80.32 ms p95 / 0.9489 f1</p>
-
-<p><strong>distilbert-base</strong></p><p> 67m / 66.15 ms p95 / 0.9321 f1</p>
-
-<p><strong>roberta-base</strong></p><p> 125m / 469.65 ms p95 / 0.9396 f1</p>
-
-<p><strong>modernbert-base</strong></p><p> 149m / 530.73 ms p95 / 0.9396 f1</p>
-
-<p>notice that, to get the same latency with bert models, you have to go all the way down to 67m parameters. for short sentiment tasks, you get comparable f1 score. just wait until you've got a long customer email with lots of detail. furthermore, offline-sentiment-base (and all of our models) <em>do not require 4 gb of pytorch dependencies</em>, unlike hugging face models.</p>
-
 <p><strong>about offlineisbetter</strong></p>
 
 <p>we believe that it's time to ditch the cloud. because offline is secure, offline is fast, offline is predictable, offlineisbetter.</p>
